@@ -4,12 +4,12 @@ Predicting the Quality of a bottle of wine, based on some certain recorded featu
 
 Steps Taken :
 
- 1. Importing the necessary Python Libraries 
-   a. Numpy
-   b. pandas
-   c. Scikit-learn
-   d. Seaborne 
-   e. statsmodels.api
+ 1. Importing the necessary Python Libraries   
+   a. Numpy  
+   b. pandas  
+   c. Scikit-learn  
+   d. Seaborne   
+   e. statsmodels.api  
    
  2. Importing the wine data set from UCI Machine Learning Repository 
     Link : https://archive.ics.uci.edu/ml/datasets/Wine+Quality
