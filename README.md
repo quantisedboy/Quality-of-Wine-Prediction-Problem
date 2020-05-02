@@ -33,5 +33,6 @@ Steps Taken :
 11.  Analyze the model using   
      I.   R^2 test   
      
-     Result : ( y_test : green line , y_Predicted : Red Line)  
+     Result "Red Wine": ( y_test : green line , y_Predicted : Red Line)   
+     ![WInequality_red](https://user-images.githubusercontent.com/45620309/80868007-5dddaf00-8cb5-11ea-8830-412495cd94c1.png)
      
