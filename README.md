@@ -1,32 +1,22 @@
 # Quality-of-Wine-Prediction-Problem
 
-Predicting the Quality of a bottle of wine, based on some certain recorded features (using regression model)
+Predicting the Quality of a bottle of wine, based on some certain recorded features (using multivariate regression model)  
+library: Scikit Learn  
+Dataset Source: [UCI ML Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/)  
 
 Steps Taken :
 
  1. Importing the necessary Python Libraries   
    a. Numpy  
    b. pandas  
-   c. Scikit-learn  
-   d. Seaborne   
-   e. statsmodels.api  
-   
- 2. Importing the wine data set from UCI Machine Learning Repository  
-    Link : https://archive.ics.uci.edu/ml/datasets/Wine+Quality  
-   
- 3. Preprocessing the data set  
-     I.Dealing with missing values (The dreaded NaN)  
-     II.Feature Scaling .  
-   
- 4. Encoding Categorical Features with 1 : True and 0 : False   
-     i.e for each category, creating a new column . Suppose our data set has categorical feature with 4 category, then I will create   
-     4 new column for each of our category and remove the original feature column.  
-   
- 5.  Selecting the most important features based on   
+   c. Scikit-learn    
+     
+ 2. Preprocessing the data set  
+     Dealing with missing values (The dreaded NaN)    
+      
+ 3.  Selecting the most important features based on   
      I. Correlation between dependent and independent variable.  
-     II.Multicollinearity between independent features. (Using heatmap for visual understanding and also Variance Inflation Factor(VIF)).  
-   
- 6. Checking for Outlier Point using Z-Score, and then depending on the value a course of action will be taken.   
+     II.Multicollinearity between independent features. (Using heatmap for visual understanding and also Variance Inflation Factor(VIF)).(NOT APPLIED)   
    
  7. Splitting the Data Set into 2 new Datasets : X and Y  
      X: Independent Features   
@@ -41,6 +31,7 @@ Steps Taken :
 10.  Run the test data set on this models and check the output   
 
 11.  Analyze the model using   
-     I.   R^2 test  
-     II.  RMSE value  
-     III. Using P-P plot to check whether the residuals are in Normal Distribution or not.  
+     I.   R^2 test   
+     
+     Result : ( y_test : green line , y_Predicted : Red Line)  
+     
