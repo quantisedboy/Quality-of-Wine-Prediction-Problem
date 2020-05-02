@@ -1,4 +1,5 @@
 # Quality-of-Wine-Prediction-Problem
+(https://leambrosie.files.wordpress.com/2013/08/1.jpg?w=487)  
 
 Predicting the Quality of a bottle of wine, based on some certain recorded features (using multivariate regression model)  
 library: Scikit Learn  
@@ -33,6 +34,11 @@ Steps Taken :
 11.  Analyze the model using   
      I.   R^2 test   
      
-     Result "Red Wine": ( y_test : green line , y_Predicted : Red Line)   
-     ![WInequality_red](https://user-images.githubusercontent.com/45620309/80868007-5dddaf00-8cb5-11ea-8830-412495cd94c1.png)
+     Result **Red Wine** : ( y_test : green line , y_Predicted : Red Line)   
+     ![WInequality_red](https://user-images.githubusercontent.com/45620309/80868007-5dddaf00-8cb5-11ea-8830-412495cd94c1.png)  
+       
+         
+     Result **White Wine** : ( y_test : green line , y_Predicted : Red Line)   
+     ![WInequality_white](https://user-images.githubusercontent.com/45620309/80868048-9f6e5a00-8cb5-11ea-8905-21277d9224e3.png)
+
      
