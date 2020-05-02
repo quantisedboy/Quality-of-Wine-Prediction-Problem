@@ -32,7 +32,7 @@ Steps Taken :
    
 *10*.  Run the test data set on this models and check the output   
 
-*11*.  Analyze the model using   
+11.  Analyze the model using   
      I.   R^2 Score  
      
      Result **Red Wine** : ( y_test : green line , y_Predicted : Red Line)   
