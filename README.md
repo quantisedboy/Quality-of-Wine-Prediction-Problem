@@ -1,6 +1,7 @@
 # Quality-of-Wine-Prediction-Problem
-(https://leambrosie.files.wordpress.com/2013/08/1.jpg?w=487)  
-
+![.](https://leambrosie.files.wordpress.com/2013/08/1.jpg?w=487)  
+  
+    
 Predicting the Quality of a bottle of wine, based on some certain recorded features (using multivariate regression model)  
 library: Scikit Learn  
 Dataset Source: [UCI ML Dataset](https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality/)  
